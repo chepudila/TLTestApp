@@ -1,0 +1,35 @@
+#Table {
+    table {
+        border: 1px solid black;
+        border-spacing: 0;
+    }
+
+    td {
+        border: 1px solid black;
+        padding: 5px;
+        background-color: #363636;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    thead {
+        td {
+            cursor: pointer;
+            background-color: #5d8c72;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #Table {
+        table {
+            font-size: 10px;
+        }
+    }
+}
